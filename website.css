@@ -1,0 +1,393 @@
+@media (min-width: 1024px) {
+    #home {
+        background-color: #F4F4F4;
+        font-color: black;
+        text-align: left;
+    }
+
+    #home h1 {
+        padding: .5em 0 .25em 0;
+        font-family: "Poiret One", cursive;
+        font-size: 4em;
+        border-bottom: none;
+    }
+    #home i {
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .verticalLine {
+        border-right: thick solid #000000;
+        height: 20em;
+        margin-top: 3em;
+        width: 90%;
+    }
+
+    #home h2 {
+        font-family: "Oswald", sans-serif;
+        font-size: 2.5em;
+        padding-bottom: .25em;
+    }
+
+    #home p {
+        margin-top: .5em;
+        font-family: "Quattrocento Sans", sans-serif;
+        font-size: 1.2em;
+    }
+    #work h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 3.5em;
+        letter-spacing: .05em;
+        text-align: left;
+    }
+    i.fa {
+        font-size: 65px;
+        padding: 40px 5px 5px 5px;
+    }
+    #work {
+        padding: 20px 50px 50px 50px;
+        /*        height: 600px;*/
+        background-color: #373737;
+        text-align: center;
+        color: #ffffff;
+    }
+    #work p {
+        font-family: "Quattrocento Sans", sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    a,
+    a:hover,
+    a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+    #resume h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 70px;
+        margin: 0;
+    }
+    #resume {
+        /*        padding: 5px 50px 50px 50px;*/
+        height: 790px;
+        font-family: "Quattrocento Sans", sans-serif;
+        background-color: #F5F5F5
+    }
+    #resume p {
+        font-size: 15px;
+    }
+    .spacedHeading h3 {
+        padding: 10px;
+    }
+    .smallMargin {
+        margin-top: 45px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    #home {
+        background-color: #F4F4F4;
+        font-color: black;
+        text-align: left;
+        /*        padding: 8.1em 0 8.1em 0;
+*/
+    }
+
+    #home h1 {
+        padding: .5em 0 .25em 0;
+        font-family: "Poiret One", cursive;
+        font-size: 4em;
+        border-bottom: none;
+    }
+    #home i {
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .verticalLine {
+        border-right: thick solid #000000;
+        height: 20em;
+        margin-top: 3em;
+        width: 95%;
+    }
+
+    #home h2 {
+        font-family: "Oswald", sans-serif;
+        font-size: 2.5em;
+        padding-bottom: .25em;
+    }
+
+    #home p {
+        margin-top: .5em;
+        font-family: "Quattrocento Sans", sans-serif;
+        font-size: 1.2em;
+    }
+    #work h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 3.5em;
+        letter-spacing: .1em;
+        text-align: left;
+        margin: 0;
+        padding: .5em .5em .5em .5em;
+    }
+    i.fa {
+        font-size: 3.5em;
+        padding: .5em .5em .5em .5em;
+    }
+    #work {
+        background-color: #373737;
+        text-align: center;
+        color: #ffffff;
+        padding: 2.5em 0 3em 0;
+    }
+    #work p {
+        font-family: "Quattrocento Sans", sans-serif;
+        font-weight: bold;
+        font-size: .9em;
+    }
+    a,
+    a:hover,
+    a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+    #resume h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 3.3em;
+        margin: 0;
+        padding-top: .3em;
+        padding-bottom: .3em;
+        padding-left: .5em;
+    }
+    #resume {
+        font-family: "Quattrocento Sans", sans-serif;
+        background-color: #F5F5F5;
+        padding: 2em 0 2em 0;
+    }
+    #resume p {
+        font-size: .9em;
+    }
+    #resume h2 {
+        font-size: 2em;
+    }
+    #resume h3 {
+        font-size: 1.4em;
+    }
+    .spacedHeading h3 {
+        padding: .75em .3em 0 .75em;
+    }
+    .spacedHeading h2 {
+        padding-left: .3em;
+    }
+}
+
+@media(min-width: 425px) and (max-width: 767px) {
+    #home {
+        background-color: #F4F4F4;
+        font-size: 1.25em;
+        font-color: black;
+        text-align: center;
+        border: none;
+        padding-bottom: .75em
+    }
+    #home h1 {
+        font-family: "Poiret One", cursive;
+        font-size: 2.7em;
+        text-align: center;
+        border-bottom: solid #000000 .01em;
+        padding-bottom: .5em;
+    }
+    #home i {
+        font-size: 1.5em;
+        text-align: center;
+        padding-top: 0;
+        color: black;
+        letter-spacing: .25em
+    }
+    #home h2 {
+        font-family: "Oswald", sans-serif;
+        font-size: 1.7em;
+    }
+    #home p {
+        font-family: "Quattrocento Sans", sans-serif;
+        font-size: 1em;
+        text-align: left;
+    }
+    .verticalLine: {
+        display: none;
+    }
+    #work {
+        background-color: #373737;
+        text-align: center;
+        color: #ffffff;
+    }
+    #work h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 3.5em;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: .5em 0 0 .5em;
+    }
+    i.fa {
+        font-size: 4em;
+    }
+    #work p {
+        font-family: "Quattrocento Sans", sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    a,
+    a:hover,
+    a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+    #resume {
+        background-color: #F4F4F4;
+        font-family: "Quattrocento Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    #resume h1 {
+        margin: 0;
+        padding: .5em 0 0 .3em;
+        font-size: 3em;
+        font-family: "Oswald", sans-serif;
+    }
+
+    #resume h2 {
+        font-size: 1.7em;
+    }
+
+    #resume h3 {
+        font-size: 1.25em;
+    }
+    #resume p {
+        font-size: .9em;
+    }
+}
+
+@media (max-width: 424px) {
+    #home {
+        background-color: #F4F4F4;
+        font-family: garamond;
+        font-size: 1em;
+        font-color: black;
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    #home h1 {
+        font-family: "Poiret One", cursive;
+        font-size: 2.7em;
+        text-align: center;
+        border-bottom: solid #000000;
+        padding-bottom: .5em;
+        margin-bottom: .5em;
+        border-width: .01em;
+    }
+
+    #home h2 {
+        font-family: "Oswald", sans-serif;
+        font-size: 1.7em;
+        padding-bottom: .75em;
+    }
+
+    #home p {
+        font-family: "Quattrocento Sans", sans-serif;
+        font-size: 1em;
+        text-align: left;
+        margin-bottom: .5em;
+    }
+
+    #home i {
+        font-size: 1.5em;
+        text-align: center;
+        padding: 0;
+    }
+
+    #work h1 {
+        font-family: "Oswald", sans-serif;
+        font-size: 3.5em;
+        letter-spacing: .05em;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: .3em 0 0 .3em;
+    }
+
+    i.fa {
+        font-size: 4em;
+        padding: .3em 0 0 .3em
+    }
+
+    #work {
+        background-color: #373737;
+        text-align: center;
+        color: #ffffff;
+    }
+
+    #work p {
+        font-family: "Quattrocento Sans", sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        padding-bottom: .5em margin-bottom: .3em;
+    }
+
+    a,
+    a:hover,
+    a:visited {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    #resume {
+        background-color: #F4F4F4;
+        font-family: "Quattrocento Sans", sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    #resume h1 {
+        margin: 0;
+        padding: .5em 0 0 .3em;
+        font-size: 3em;
+        font-family: "Oswald", sans-serif;
+    }
+
+    #resume h2 {
+        font-size: 1.7em;
+    }
+
+    #resume h3 {
+        font-size: 1.25em;
+    }
+    #resume p {
+        font-size: .9em;
+    }
+}
+
+@media (min-width: 768px) {
+    #home {
+        align-items: center;
+        display: flex;
+        height: 100vh;
+    }
+    #home h1,
+    #home h2,
+    #home .verticalLine {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    #work{
+    	height: 100vh;
+    }
+    #resume {
+    	height: 100vh;
+    }
+}
