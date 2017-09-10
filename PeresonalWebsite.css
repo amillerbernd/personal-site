@@ -1,0 +1,95 @@
+body{
+	background: linear-gradient(#B10CE8, #FF475B);
+	color: #FFF9EC;
+}
+h1 {
+    font-family: 'Bubbler One', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    margin: .5em 0 .5em 0;
+}
+
+p {
+    font-family: 'Mukta Vaani', serif;
+    font-size: 1.2em;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color:#FFF9EC;
+}
+
+h2 {
+    font-family: 'Bubbler One', serif;
+    font-weight: 100;
+    padding-left: .2em;
+    font-size: 3.5em;
+}
+
+h3{
+	font-family: 'Bubbler One', serif;
+	font-size: 2em;
+	padding: .2em 0 .2em 0;
+}
+
+h4{
+	font-family: 'Bubbler One', serif;
+	font-size: 1.5em;
+	padding-bottom: .2em;
+}
+h4.spacedheading{
+	font-family: 'Mukta Vaani', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	padding-bottom: .5em;
+}
+
+#home {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+#home i {
+    font-size: 1.6em;
+    padding: .2em;
+}
+#work{
+	text-align:left;
+}
+#work i {
+	font-size: 1.4em;
+	padding: .2em 0 .2em 0
+}
+#work p{
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+#resume h4.spacedheading{
+margin-top: .5em;
+margin-bottom: .5em;
+}
+
+@media(min-width: 768px){
+	body{
+		padding-left: 5em;
+		padding-right: 5em;
+	}
+	#work {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	#resume {
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	h4.spacedheading{
+	font-family: 'Mukta Vaani', serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	padding-bottom: 1em;
+}
+#resume h2{
+	padding-top: .5em;
+}
+}
