@@ -19,6 +19,9 @@ a:visited {
     text-decoration: none;
     color:#FFF9EC;
 }
+a:hover {
+	text-decoration: underline;
+}
 
 h2 {
     font-family: 'Bubbler One', serif;
