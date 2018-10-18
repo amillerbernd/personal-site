@@ -1,10 +1,10 @@
 html {
-	background: linear-gradient(#ECE9E6, #fff);
+	background: linear-gradient(#360333, #0b8793);
 		height: 100%;
 }
 body{
-	background: linear-gradient(#ECE9E6, #fff);
-	color: #7C7C7C;
+	background: linear-gradient(#360333, #0b8793);
+	color: #fff;
 }
 h1 {
     font-family: 'Arsenal', sans-serif;
@@ -21,11 +21,11 @@ p {
 a,
 a:visited {
     text-decoration: none;
-    color:#7C7C7C;
+    color:#fff;
 }
 a:hover {
 	text-decoration: underline;
-	color: #7C7C7C;
+	color: #fff;
 }
 
 h2 {
