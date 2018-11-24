@@ -15,7 +15,7 @@ h1 {
 
 p {
     font-family: 'Mukta Vaani', serif;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 a,
@@ -58,14 +58,13 @@ h4.spacedheading{
 }
 
 #home i {
-    font-size: 1.6em;
     padding: .2em;
+    font-size: 1.4em;
 }
 #work{
 	text-align:left;
 }
 #work i {
-	font-size: 1.4em;
 	padding: .2em 0 .2em 0
 }
 #work p{
@@ -79,8 +78,9 @@ margin-bottom: .5em;
 
 @media(min-width: 768px){
 	body{
-		padding-left: 5em;
-		padding-right: 5em;
+		padding-left: 10em;
+		padding-right: 10em;
+		padding-bottom: 5em;
 	}
 	#work {
 		padding-left: 2em;
