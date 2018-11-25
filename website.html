@@ -83,21 +83,3 @@
         <p>I'm always excited to work on new projects. You can hire me to write, edit, help you with digital strategy, analyze and visualize data or design a website. Reach me at ammillerbernd@gmail.com.</p>
     </section>
 </body>
-    <script>
-    window.onscroll = function() {
-        stickTheNav()
-    };
-
-    const navbar = document.getElementById("navbar");
-
-    function stickTheNav() {
-        const userScrollDepth = window.scrollY;
-        const navbarBottom = navbar.offsetTop + navbar.offsetHeight;
-
-        if (userScrollDepth >= navbarBottom) {
-            navbar.classList.add("sticky");
-        } else {
-            navbar.classList.remove("sticky");
-        }
-    }
-</script>
